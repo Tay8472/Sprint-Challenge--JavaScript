@@ -1,0 +1,23 @@
+Describe the biggest difference between .forEach & .map.
+
+.forEach doesn't create a new array, so you'd have to write in a blank array in a let and push your changes manually.
+.map automatically creates a new array for you when you return it.
+
+What is the difference between a function and a method?
+
+Essentially a function is what builds an object or is an object, and a method is a function that belongs to an object.
+
+What is closure?
+
+Its a method for a function inside another function to reference or have access to outer function scopes.
+
+Describe the four rules of the 'this' keyword.
+
+Default binding just calls the single function ivocation.
+Implicit binding means that the return or console.log with an object standing before a dot is what it will be.
+With Explicit binding you can call a function to use a specific object.
+With a New Binding you create an empty object and the this keyword references the properties of the original functiona and its prototypes.
+
+Why do we need super() in an extended class?
+
+super() pulls the attributes of one class into the next, essentially inheriting the attributes already created.
